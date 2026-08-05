@@ -14,7 +14,7 @@ First deployed service in the homelab. This service hosts a basic web server wit
 
 Run:
 
-docker compose -up -d
+docker compose up -d
 
 Stop:
 
