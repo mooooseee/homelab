@@ -1,8 +1,8 @@
 # Nginx Container
 
-## Purpose
+## Overview
 
-First deployed service in the homelab. This service hosts a basic web server with docker compose and container networking.
+First deployed service in the homelab. This service hosts a basic web server with Docker Compose and container networking.
 
 ## Technology
 
