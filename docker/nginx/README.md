@@ -2,7 +2,7 @@
 
 ## Purpose
 
-First deployed service in the homelab.
+First deployed service in the homelab. This service hosts a basic web server with docker compose and container networking.
 
 ## Technology
 
@@ -15,6 +15,10 @@ First deployed service in the homelab.
 Run:
 
 docker compose -up -d
+
+Stop:
+
+docker compose down
 
 ## Access
 
