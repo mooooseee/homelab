@@ -12,7 +12,7 @@ Personal infrastracture lab running on Promox with Docker for its services.
 
 ## Current Services
 
-Nginx web server. \n
+Nginx web server. <br>
 Minecraft server.
 
 ## Hardware 
