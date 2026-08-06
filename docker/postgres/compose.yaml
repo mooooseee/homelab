@@ -17,5 +17,12 @@ services:
     volumes:
       - postgres_data:/var/lib/postgresql/data
 
+    networks:
+      - homelab-network
+
 volumes:
   postgres_data:
+
+networks:
+  homelab-network:
+    external: true
