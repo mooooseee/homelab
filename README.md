@@ -12,12 +12,17 @@ Personal infrastracture lab running on Promox with Docker for its services.
 
 ## Current Services
 
-Nginx web server. <br>
-Minecraft server.
+- Nginx web server
+- Minecraft server
+- PostgreSQL server
 
 ## Hardware 
 
-Coming soon.
+- Old PC
+- 16GB Ram
+- 1TB SSD
+- Promox VE
+- Ubuntu Server VM
 
 ## Architecture 
 
