@@ -15,6 +15,7 @@ Personal infrastracture lab running on Promox with Docker for its services.
 - Nginx web server
 - Minecraft server
 - PostgreSQL server
+- Nginx Proxy Manager
 
 ## Hardware 
 
@@ -26,4 +27,16 @@ Personal infrastracture lab running on Promox with Docker for its services.
 
 ## Architecture 
 
-Coming soon.
+	Internet
+	   |
+	Router
+	   |
+	Promox VE Host
+	   |
+	Ubuntu Server VM
+	   |
+	Docker
+	   |
+	Services
+
+Services include Minecraft server, NPM, Nginx web server, etc.
