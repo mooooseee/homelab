@@ -1,0 +1,2 @@
+[06/Aug/2026:23:57:14 +0000] - 200 200 - GET http nginx.home "/" [Client 192.168.68.53] [Length 536] [Gzip 1.71] [Sent-to nginx-web] "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36" "-"
+[06/Aug/2026:23:57:14 +0000] - 404 404 - GET http nginx.home "/favicon.ico" [Client 192.168.68.53] [Length 187] [Gzip 3.15] [Sent-to nginx-web] "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36" "http://nginx.home/"
