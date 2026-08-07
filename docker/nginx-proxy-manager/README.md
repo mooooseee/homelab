@@ -1,12 +1,19 @@
-# Nginx Proxy Manager
+# Nginx Proxy Manager Container
 
 ## Overview
 
-Nginx Proxy Manager acts as the reverse proxy for the homelab services.
+Reverse proxy service for homelab.
+
+## Technology
+
+- Nginx Proxy Manager
+- Docker
 
 ## Deployment
 
-Running as a Docker container.
+docker compose up -d
+
+docker compose down
 
 ## Ports
 
