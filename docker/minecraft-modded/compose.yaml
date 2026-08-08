@@ -1,0 +1,33 @@
+services:
+  minecraft-modded:
+    image: itzg/minecraft-server:latest
+    container_name: minecraft-modded
+    ports:
+      - "25565:25565"
+    environment:
+      EULA: "TRUE"
+      TYPE: "FABRIC"
+      VERSION: "1.20.1"
+      MEMORY: "5G"
+
+      MODRINTH_PROJECTS: |
+        fabric-api
+        lithium
+        modernfix
+        ae2
+        ferrite-core
+        create-fabric
+        terralith
+        yungs-api
+        cloth-config
+        yungs-better-dungeons
+        yungs-bridges
+        yungs-better-mineshafts
+        yungs-better-strongholds
+
+      MOTD: "Moose's Modded Experience"
+      DIFFICULTY: "normal"
+      MODE: "survival"
+    volumes:
+      - ./data:/data
+    restart: unless-stopped
