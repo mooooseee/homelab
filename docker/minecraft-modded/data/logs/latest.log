@@ -1,11 +1,26 @@
-[05:15:01] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.19.3
-[05:15:01] [main/INFO]: Loading 97 mods:
+[01:58:28] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.19.3
+[01:58:28] [ForkJoinPool-1-worker-4/WARN]: Mod simplehats uses the version 0.4.0a which isn't compatible with Loader's extended semantic version format (Could not parse version number component '0a'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[01:58:28] [main/INFO]: Loading 122 mods:
+	- accessories 1.0.0-beta.48+1.20.1
+	   |-- io_wispforest_endec 0.1.8
+	   |-- io_wispforest_endec_gson 0.1.5
+	   \-- io_wispforest_endec_netty 0.1.4
 	- ae2 15.4.10
 	   \-- team_reborn_energy 3.0.0
+	- amendments 1.20-2.2.5
 	- betterdungeons 1.20-Fabric-4.0.4
 	   \-- org_reflections_reflections 0.10.2
 	- bettermineshafts 1.20-Fabric-4.0.4
 	- betterstrongholds 1.20-Fabric-4.0.3
+	- cardinal-components 5.2.3
+	   |-- cardinal-components-base 5.2.3
+	   |-- cardinal-components-block 5.2.3
+	   |-- cardinal-components-chunk 5.2.3
+	   |-- cardinal-components-entity 5.2.3
+	   |-- cardinal-components-item 5.2.3
+	   |-- cardinal-components-level 5.2.3
+	   |-- cardinal-components-scoreboard 5.2.3
+	   \-- cardinal-components-world 5.2.3
 	- cloth-config 11.1.136
 	   \-- cloth-basic-math 0.6.1
 	- create 6.0.8.1+build.1744-mc1.20.1
@@ -128,145 +143,387 @@
 	   \-- mixinextras 0.5.4
 	- ferritecore 6.0.1
 	- java 25
+	- jei 15.48.0.183
 	- lithium 0.11.4
+	- mcwdoors 1.1.5
+	- mcwfurnitures 3.4.1
+	- mcwstairs 1.0.2
+	- mcwwindows 2.4.2
 	- minecraft 1.20.1
 	- modernfix 5.25.2+mc1.20.1
+	- moonlight 1.20-2.16.34
+	   \-- mixinsquared 0.1.1
+	- mr_timber_strike 1.1
+	- simplehats 0.4.0a
+	- supplementaries 1.20-3.1.43
+	   \-- mixinsquared 0.1.1
 	- terralith 2.5.4
+	- travelersbackpack 9.1.54
+	   \-- reach-entity-attributes 2.4.0
 	- yungsapi 1.20-Fabric-4.0.6
 	   \-- org_javassist_javassist 3.29.2-GA
 	- yungsbridges 1.20-Fabric-4.0.3
-[05:15:01] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/data/libraries/net/fabricmc/sponge-mixin/0.17.3+mixin.0.8.7/sponge-mixin-0.17.3+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[05:15:01] [main/INFO]: Compatibility level set to JAVA_11
-[05:15:01] [main/INFO]: Compatibility level set to JAVA_17
-[05:15:01] [main/INFO]: Loaded configuration file for Lithium: 131 options available, 1 override(s) found
-[05:15:02] [main/INFO]: Loaded configuration file for ModernFix 5.25.2+mc1.20.1: 71 options available, 0 override(s) found
-[05:15:02] [main/INFO]: Applying Nashorn fix
-[05:15:02] [main/WARN]: Error loading class: net/minecraft/class_881 (java.lang.ClassNotFoundException: net/minecraft/class_881)
-[05:15:02] [main/WARN]: @Mixin target net.minecraft.class_881 was not found porting_lib_base.mixins.json:client.BoatRendererMixin from mod porting_lib_base
-[05:15:02] [main/WARN]: Error loading class: net/minecraft/class_525 (java.lang.ClassNotFoundException: net/minecraft/class_525)
-[05:15:02] [main/WARN]: @Mixin target net.minecraft.class_525 was not found porting_lib_base.mixins.json:client.CreateWorldScreenMixin from mod porting_lib_base
-[05:15:02] [main/WARN]: Error loading class: net/minecraft/class_906 (java.lang.ClassNotFoundException: net/minecraft/class_906)
-[05:15:02] [main/WARN]: @Mixin target net.minecraft.class_906 was not found porting_lib_tool_actions.mixins.json:FishingHookRendererMixin from mod porting_lib_tool_actions
-[05:15:02] [main/WARN]: Force-disabling mixin 'alloc.blockstate.StateMixin' as rule 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
-[05:15:02] [main/WARN]: Error loading class: dev/ftb/mods/ftbchunks/client/gui/LargeMapScreen (java.lang.ClassNotFoundException: dev/ftb/mods/ftbchunks/client/gui/LargeMapScreen)
-[05:15:02] [main/WARN]: @Mixin target dev.ftb.mods.ftbchunks.client.gui.LargeMapScreen was not found create.mixins.json:compat.ftbchunks.LargeMapScreenAccessor from mod create
-[05:15:02] [main/WARN]: Error loading class: dev/ftb/mods/ftbchunks/client/gui/RegionMapPanel (java.lang.ClassNotFoundException: dev/ftb/mods/ftbchunks/client/gui/RegionMapPanel)
-[05:15:02] [main/WARN]: @Mixin target dev.ftb.mods.ftbchunks.client.gui.RegionMapPanel was not found create.mixins.json:compat.ftbchunks.RegionMapPanelAccessor from mod create
-[05:15:02] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.4).
-[05:15:03] [main/INFO]: Injecting BlockStateBase cache population hook into getNeighborPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
-[05:15:03] [main/INFO]: Injecting BlockStateBase cache population hook into getPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
-[05:15:03] [main/INFO]: Injecting BlockStateBase cache population hook into getAllFlags from me.jellysquid.mods.lithium.mixin.util.block_tracking.AbstractBlockStateMixin
-[05:15:04] [main/WARN]: Method overwrite conflict for method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix, previously written by me.jellysquid.mods.lithium.mixin.world.temperature_cache.BiomeMixin. Skipping method.
-[05:15:04] [main/INFO]: Vanilla bootstrap took 2005 milliseconds
-[05:15:04] [main/INFO]: Reflections took 29 ms to scan 1 urls, producing 1 keys and 3 values
-[05:15:04] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 3 values
-[05:15:05] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
-[05:15:05] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
-[05:15:05] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 2 values
-[05:15:05] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
-[05:15:05] [main/INFO]: Create 6.0.8.1 initializing!
-[05:15:06] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 4 values
-[05:15:06] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 4 values
-[05:15:06] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
-[05:15:06] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
-[05:15:06] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[05:15:06] [main/INFO]: Bypassed Mojang DFU
-[05:15:06] [main/INFO]: Created 157 recipes which will be injected into the game
-[05:15:06] [main/INFO]: Created 0 tags which will be injected into the game
-[05:15:08] [main/INFO]: Loaded 27 recipes
-[05:15:08] [main/INFO]: Loaded 2836 advancements
-[05:15:08] [main/WARN]: Initial datapack load took 1.526 s
-[05:15:08] [main/INFO]: Applied 600 biome modifications to 157 of 164 new biomes in 22.00 ms
-[05:15:08] [Server thread/INFO]: Scanning class appeng.server.testplots.TestPlots for plots
-[05:15:08] [Server thread/INFO]: Scanning class appeng.server.testplots.AutoCraftingTestPlots for plots
-[05:15:08] [Server thread/INFO]: Scanning class appeng.server.testplots.InscriberTestPlots for plots
-[05:15:08] [Server thread/INFO]: Scanning class appeng.server.testplots.P2PTestPlots for plots
-[05:15:08] [Server thread/INFO]: Scanning class appeng.server.testplots.ItemP2PTestPlots for plots
-[05:15:08] [Server thread/INFO]: Scanning class appeng.server.testplots.MemoryCardTestPlots for plots
-[05:15:08] [Server thread/INFO]: Scanning class appeng.server.testplots.PatternProviderLockModePlots for plots
-[05:15:08] [Server thread/INFO]: Scanning class appeng.server.testplots.PatternProviderPlots for plots
-[05:15:08] [Server thread/INFO]: Scanning class appeng.server.testplots.SpatialTestPlots for plots
-[05:15:08] [Server thread/INFO]: Scanning class appeng.server.testplots.QnbTestPlots for plots
-[05:15:08] [Server thread/INFO]: Scanning class appeng.server.testplots.GuidebookPlot for plots
-[05:15:08] [Server thread/INFO]: Scanning class appeng.server.testplots.SubnetPlots for plots
-[05:15:08] [Server thread/INFO]: Scanning class appeng.server.testplots.ChannelTests for plots
-[05:15:08] [Server thread/INFO]: Scanning class appeng.server.testplots.AnnihilationPlaneTests for plots
-[05:15:08] [Server thread/INFO]: Starting minecraft server version 1.20.1
-[05:15:08] [Server thread/INFO]: Loading properties
-[05:15:08] [Server thread/INFO]: Default game type: SURVIVAL
-[05:15:08] [Server thread/INFO]: Generating keypair
-[05:15:08] [Server thread/INFO]: Starting Minecraft server on *:25565
-[05:15:08] [Server thread/INFO]: Using epoll channel type
-[05:15:08] [Server thread/INFO]: Preparing level "world"
-[05:15:10] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[05:15:10] [Server thread/WARN]: Method overwrite conflict for removeIf in modernfix-common.mixins.json:bugfix.paper_chunk_patches.SortedArraySetMixin from mod modernfix, previously written by me.jellysquid.mods.lithium.mixin.world.chunk_tickets.SortedArraySetMixin. Skipping method.
-[05:15:10] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[05:15:11] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[05:15:11] [Worker-Main-1/INFO]: Instantiating Mojang DFU
-[05:15:11] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[05:15:13] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[05:15:13] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[05:15:13] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[05:15:13] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[05:15:14] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[05:15:14] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[05:15:15] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[05:15:15] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[05:15:16] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[05:15:16] [Worker-Main-1/INFO]: Preparing spawn area: 1%
-[05:15:17] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[05:15:17] [Worker-Main-3/INFO]: Preparing spawn area: 4%
-[05:15:18] [Worker-Main-3/INFO]: Preparing spawn area: 5%
-[05:15:18] [Worker-Main-3/INFO]: Preparing spawn area: 7%
-[05:15:19] [Worker-Main-3/INFO]: Preparing spawn area: 9%
-[05:15:19] [Worker-Main-1/INFO]: Preparing spawn area: 10%
-[05:15:20] [Worker-Main-2/INFO]: Preparing spawn area: 10%
-[05:15:20] [Worker-Main-1/INFO]: Preparing spawn area: 12%
-[05:15:21] [Worker-Main-1/INFO]: Preparing spawn area: 15%
-[05:15:21] [Worker-Main-3/INFO]: Preparing spawn area: 16%
-[05:15:22] [Worker-Main-3/INFO]: Preparing spawn area: 18%
-[05:15:22] [Worker-Main-3/INFO]: Preparing spawn area: 21%
-[05:15:23] [Worker-Main-1/INFO]: Preparing spawn area: 23%
-[05:15:23] [Worker-Main-1/INFO]: Preparing spawn area: 24%
-[05:15:24] [Worker-Main-3/INFO]: Preparing spawn area: 26%
-[05:15:24] [Worker-Main-1/INFO]: Preparing spawn area: 28%
-[05:15:25] [Worker-Main-3/INFO]: Preparing spawn area: 31%
-[05:15:26] [Worker-Main-1/INFO]: Preparing spawn area: 31%
-[05:15:26] [Worker-Main-2/INFO]: Preparing spawn area: 31%
-[05:15:26] [Worker-Main-3/INFO]: Preparing spawn area: 33%
-[05:15:27] [Worker-Main-2/INFO]: Preparing spawn area: 36%
-[05:15:27] [Worker-Main-2/INFO]: Preparing spawn area: 39%
-[05:15:28] [Worker-Main-1/INFO]: Preparing spawn area: 42%
-[05:15:28] [Worker-Main-2/INFO]: Preparing spawn area: 43%
-[05:15:29] [Worker-Main-1/INFO]: Preparing spawn area: 47%
-[05:15:29] [Worker-Main-3/INFO]: Preparing spawn area: 50%
-[05:15:30] [Worker-Main-2/INFO]: Preparing spawn area: 54%
-[05:15:30] [Worker-Main-2/INFO]: Preparing spawn area: 55%
-[05:15:31] [Worker-Main-1/INFO]: Preparing spawn area: 57%
-[05:15:31] [Worker-Main-3/INFO]: Preparing spawn area: 62%
-[05:15:32] [Worker-Main-3/INFO]: Preparing spawn area: 65%
-[05:15:32] [Worker-Main-3/INFO]: Preparing spawn area: 68%
-[05:15:33] [Worker-Main-1/INFO]: Preparing spawn area: 70%
-[05:15:33] [Worker-Main-2/INFO]: Preparing spawn area: 72%
-[05:15:34] [Worker-Main-2/INFO]: Preparing spawn area: 74%
-[05:15:34] [Worker-Main-1/INFO]: Preparing spawn area: 78%
-[05:15:35] [Worker-Main-3/INFO]: Preparing spawn area: 81%
-[05:15:35] [Worker-Main-2/INFO]: Preparing spawn area: 83%
-[05:15:36] [Worker-Main-3/INFO]: Preparing spawn area: 85%
-[05:15:36] [Worker-Main-3/INFO]: Preparing spawn area: 87%
-[05:15:37] [Worker-Main-3/INFO]: Preparing spawn area: 90%
-[05:15:37] [Worker-Main-3/INFO]: Preparing spawn area: 94%
-[05:15:38] [Worker-Main-2/INFO]: Preparing spawn area: 98%
-[05:15:38] [Server thread/INFO]: Time elapsed: 27964 ms
-[05:15:38] [Server thread/INFO]: Done (29.841s)! For help, type "help"
-[05:15:38] [Server thread/INFO]: Starting remote control listener
-[05:15:38] [Server thread/INFO]: Thread RCON Listener started
-[05:15:38] [Server thread/INFO]: RCON running on 0.0.0.0:25575
-[05:15:38] [Server thread/WARN]: Dedicated server took 38.01 seconds to load
-[05:16:19] [RCON Listener #1/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 started
-[05:16:19] [Server thread/INFO]: [Rcon: Stopping the server]
-[05:16:19] [RCON Client /0:0:0:0:0:0:0:1 #2/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 shutting down
-[05:16:20] [Server thread/INFO]: Stopping server
-[05:16:20] [Server thread/INFO]: Saving players
-[05:16:20] [Server thread/INFO]: Saving worlds
-[05:16:20] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[01:58:28] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/data/libraries/net/fabricmc/sponge-mixin/0.17.3+mixin.0.8.7/sponge-mixin-0.17.3+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[01:58:28] [main/INFO]: Compatibility level set to JAVA_17
+[01:58:28] [main/INFO]: Loaded configuration file for Lithium: 131 options available, 2 override(s) found
+[01:58:28] [main/INFO]: Loaded configuration file for ModernFix 5.25.2+mc1.20.1: 71 options available, 0 override(s) found
+[01:58:28] [main/INFO]: Applying Nashorn fix
+[01:58:28] [main/WARN]: Error loading class: net/minecraft/class_881 (java.lang.ClassNotFoundException: net/minecraft/class_881)
+[01:58:28] [main/WARN]: @Mixin target net.minecraft.class_881 was not found porting_lib_base.mixins.json:client.BoatRendererMixin from mod porting_lib_base
+[01:58:28] [main/WARN]: Error loading class: net/minecraft/class_525 (java.lang.ClassNotFoundException: net/minecraft/class_525)
+[01:58:28] [main/WARN]: @Mixin target net.minecraft.class_525 was not found porting_lib_base.mixins.json:client.CreateWorldScreenMixin from mod porting_lib_base
+[01:58:28] [main/WARN]: Error loading class: net/minecraft/class_906 (java.lang.ClassNotFoundException: net/minecraft/class_906)
+[01:58:28] [main/WARN]: @Mixin target net.minecraft.class_906 was not found porting_lib_tool_actions.mixins.json:FishingHookRendererMixin from mod porting_lib_tool_actions
+[01:58:28] [main/WARN]: Error loading class: net/minecraft/class_761 (java.lang.ClassNotFoundException: net/minecraft/class_761)
+[01:58:28] [main/WARN]: @Mixin target net.minecraft.class_761 was not found accessories-common.mixins.json:LevelRendererAccessor from mod accessories
+[01:58:28] [main/WARN]: Error loading class: vectorwing/farmersdelight/common/block/StandingCanvasSignBlock (java.lang.ClassNotFoundException: vectorwing/farmersdelight/common/block/StandingCanvasSignBlock)
+[01:58:28] [main/WARN]: Error loading class: vectorwing/farmersdelight/common/block/WallCanvasSignBlock (java.lang.ClassNotFoundException: vectorwing/farmersdelight/common/block/WallCanvasSignBlock)
+[01:58:28] [main/WARN]: Force-disabling mixin 'alloc.blockstate.StateMixin' as rule 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
+[01:58:28] [main/WARN]: Force-disabling mixin 'block.moving_block_shapes.PistonBlockEntityMixin' as rule 'mixin.block.moving_block_shapes' (added by mods [supplementaries]) disables it and children
+[01:58:28] [main/WARN]: Force-disabling mixin 'block.moving_block_shapes.VoxelShapeMixin' as rule 'mixin.block.moving_block_shapes' (added by mods [supplementaries]) disables it and children
+[01:58:29] [main/WARN]: @Mixin target net.minecraft.class_525 was not found moonlight.mixins.json:CreateWorldScreenMixin from mod moonlight
+[01:58:29] [main/WARN]: Error loading class: vectorwing/farmersdelight/common/block/TomatoVineBlock (java.lang.ClassNotFoundException: vectorwing/farmersdelight/common/block/TomatoVineBlock)
+[01:58:29] [main/WARN]: Error loading class: me/jellysquid/mods/sodium/client/render/chunk/compile/pipeline/FluidRenderer (java.lang.ClassNotFoundException: me/jellysquid/mods/sodium/client/render/chunk/compile/pipeline/FluidRenderer)
+[01:58:29] [main/WARN]: Error loading class: dev/ftb/mods/ftbchunks/client/gui/LargeMapScreen (java.lang.ClassNotFoundException: dev/ftb/mods/ftbchunks/client/gui/LargeMapScreen)
+[01:58:29] [main/WARN]: @Mixin target dev.ftb.mods.ftbchunks.client.gui.LargeMapScreen was not found create.mixins.json:compat.ftbchunks.LargeMapScreenAccessor from mod create
+[01:58:29] [main/WARN]: Error loading class: dev/ftb/mods/ftbchunks/client/gui/RegionMapPanel (java.lang.ClassNotFoundException: dev/ftb/mods/ftbchunks/client/gui/RegionMapPanel)
+[01:58:29] [main/WARN]: @Mixin target dev.ftb.mods.ftbchunks.client.gui.RegionMapPanel was not found create.mixins.json:compat.ftbchunks.RegionMapPanelAccessor from mod create
+[01:58:29] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.4).
+[01:58:29] [main/WARN]: @ModifyVariable(@At("INVOKE")) Shift.BY=2 on accessories-fabric.mixins.json:LivingEntityMixin from mod accessories::localvar$zfb000$accessories$adjustLooting exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[01:58:30] [main/INFO]: Injecting BlockStateBase cache population hook into getNeighborPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
+[01:58:30] [main/INFO]: Injecting BlockStateBase cache population hook into getPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
+[01:58:30] [main/INFO]: Injecting BlockStateBase cache population hook into getAllFlags from me.jellysquid.mods.lithium.mixin.util.block_tracking.AbstractBlockStateMixin
+[01:58:31] [main/WARN]: @Inject(@At("INVOKE")) Shift.BY=2 on accessories-common.mixins.json:NbtCompoundMixin from mod accessories::handler$zfn000$accessories$adjustCheckForListVariants exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[01:58:31] [main/WARN]: Method overwrite conflict for method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix, previously written by me.jellysquid.mods.lithium.mixin.world.temperature_cache.BiomeMixin. Skipping method.
+[01:58:31] [main/INFO]: Vanilla bootstrap took 2107 milliseconds
+[01:58:31] [main/INFO]: Registering Listeners!
+[01:58:31] [main/INFO]: Loaded config amendments-common.json
+[01:58:31] [main/INFO]: Reflections took 23 ms to scan 1 urls, producing 1 keys and 3 values
+[01:58:31] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 3 values
+[01:58:31] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[01:58:31] [main/INFO]: Reflections took 0 ms to scan 1 urls, producing 1 keys and 2 values
+[01:58:31] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[01:58:31] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[01:58:32] [main/INFO]: Create 6.0.8.1 initializing!
+[01:58:33] [main/INFO]: Loaded config moonlight-common.json
+[01:58:33] [main/INFO]: Loaded 293 hat entries from simplehats.json
+[01:58:33] [main/INFO]: Generated 294 hat items from hat entries.
+[01:58:33] [main/INFO]: Loaded config supplementaries-common.json
+[01:58:33] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:water for Water (Fluid Amount Required: 81000) with the ID 0
+[01:58:33] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:lava for Lava (Fluid Amount Required: 81000) with the ID 1
+[01:58:33] [main/INFO]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for block.travelersbackpack.potion_still (Fluid Amount Required: 27000) with the ID 2
+[01:58:33] [main/INFO]: Registered the FluidEffect with Unique ID of milk:still_milk for Milk (Fluid Amount Required: 81000) with the ID 3
+[01:58:33] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 4 values
+[01:58:33] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 4 values
+[01:58:33] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[01:58:33] [main/INFO]: Reflections took 0 ms to scan 1 urls, producing 1 keys and 2 values
+[01:58:34] [main/INFO]: Initialized block sets in 10ms
+[01:58:34] [main/INFO]: Loaded config amendments-client.json
+[01:58:34] [main/INFO]: Initialized color sets in 31ms
+[01:58:34] [main/INFO]: Finished mod setup in: [0, 0, 0, 0, 0, 0, 7, 0] ms
+[01:58:34] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[01:58:34] [main/INFO]: Bypassed Mojang DFU
+[01:58:34] [main/INFO]: Created 158 recipes which will be injected into the game
+[01:58:34] [main/INFO]: Created 0 tags which will be injected into the game
+[01:58:34] [main/INFO]: Starting runtime resource generation for pack type SERVER_DATA with generators from mods [supplementaries]: [net.mehvahdjukaar.supplementaries.dynamicpack.ServerDynamicResourcesGenerator@59d6c98d]
+[01:58:34] [main/INFO]: Generating runtime assets for pack Supplementaries Generated Pack (supplementaries)
+[01:58:34] [main/INFO]: Generated runtime SERVER_DATA for pack Supplementaries Generated Pack (supplementaries) in: 17 ms (multithreaded)
+[01:58:34] [main/INFO]: Finished runtime resources generation for 1 packs in a total of 18 ms
+[01:58:35] [main/INFO]: [fabric-registry-sync] Loaded registry data [file 1/4]
+[01:58:35] [main/INFO]: Loaded 27 recipes
+[01:58:35] [main/ERROR]: Parsing error loading custom advancement supplementaries:recipes/planter_rich: Unknown item id 'farmersdelight:rich_soil'
+[01:58:36] [main/INFO]: Loaded 3268 advancements
+[01:58:36] [main/INFO]: Loaded 27 flute songs
+[01:58:36] [main/INFO]: Applied 18 data villager trades
+[01:58:36] [main/INFO]: Finished additional setup in 0 ms
+[01:58:36] [main/WARN]: Initial datapack load took 1.778 s
+[01:58:36] [main/INFO]: Applied 905 biome modifications to 157 of 164 new biomes in 19.43 ms
+[01:58:36] [Server thread/INFO]: Scanning class appeng.server.testplots.TestPlots for plots
+[01:58:36] [Server thread/INFO]: Scanning class appeng.server.testplots.AutoCraftingTestPlots for plots
+[01:58:36] [Server thread/INFO]: Scanning class appeng.server.testplots.InscriberTestPlots for plots
+[01:58:36] [Server thread/INFO]: Scanning class appeng.server.testplots.P2PTestPlots for plots
+[01:58:36] [Server thread/INFO]: Scanning class appeng.server.testplots.ItemP2PTestPlots for plots
+[01:58:36] [Server thread/INFO]: Scanning class appeng.server.testplots.MemoryCardTestPlots for plots
+[01:58:36] [Server thread/INFO]: Scanning class appeng.server.testplots.PatternProviderLockModePlots for plots
+[01:58:36] [Server thread/INFO]: Scanning class appeng.server.testplots.PatternProviderPlots for plots
+[01:58:36] [Server thread/INFO]: Scanning class appeng.server.testplots.SpatialTestPlots for plots
+[01:58:36] [Server thread/INFO]: Scanning class appeng.server.testplots.QnbTestPlots for plots
+[01:58:36] [Server thread/INFO]: Scanning class appeng.server.testplots.GuidebookPlot for plots
+[01:58:36] [Server thread/INFO]: Scanning class appeng.server.testplots.SubnetPlots for plots
+[01:58:36] [Server thread/INFO]: Scanning class appeng.server.testplots.ChannelTests for plots
+[01:58:36] [Server thread/INFO]: Scanning class appeng.server.testplots.AnnihilationPlaneTests for plots
+[01:58:36] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[01:58:36] [Server thread/INFO]: Loading properties
+[01:58:36] [Server thread/INFO]: Default game type: SURVIVAL
+[01:58:36] [Server thread/INFO]: Generating keypair
+[01:58:36] [Server thread/INFO]: Starting Minecraft server on *:25565
+[01:58:36] [Server thread/INFO]: Using epoll channel type
+[01:58:36] [Server thread/INFO]: Preparing level "world"
+[01:58:36] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[01:58:36] [Server thread/WARN]: Method overwrite conflict for removeIf in modernfix-common.mixins.json:bugfix.paper_chunk_patches.SortedArraySetMixin from mod modernfix, previously written by me.jellysquid.mods.lithium.mixin.world.chunk_tickets.SortedArraySetMixin. Skipping method.
+[01:58:37] [Server thread/INFO]: Preparing spawn area: 0%
+[01:58:37] [Server thread/INFO]: Preparing spawn area: 0%
+[01:58:37] [Server thread/INFO]: Time elapsed: 1168 ms
+[01:58:37] [Server thread/INFO]: Done (1.401s)! For help, type "help"
+[01:58:37] [Server thread/INFO]: Starting remote control listener
+[01:58:37] [Server thread/INFO]: Thread RCON Listener started
+[01:58:37] [Server thread/INFO]: RCON running on 0.0.0.0:25575
+[01:58:37] [Server thread/WARN]: Dedicated server took 10.604 seconds to load
+[01:58:49] [User Authenticator #1/INFO]: UUID of player godpot is c93adaae-6e57-4624-8cde-df3c1ea040ff
+[01:58:49] [Server thread/INFO]: godpot[/32.216.166.121:59256] logged in with entity id 292 at (-1264.8835841216621, 83.0, 431.4791973641763)
+[01:58:49] [Server thread/INFO]: Loading config from file...
+[01:58:49] [Server thread/INFO]: godpot joined the game
+[01:58:56] [User Authenticator #2/INFO]: UUID of player GhostShadows is 5c2dfc21-e1f3-47b0-af6f-9d9343ea8ef0
+[01:58:56] [Server thread/INFO]: GhostShadows[/173.69.179.201:60860] logged in with entity id 346 at (-1256.1961321928484, 82.49520087700593, 430.2246276258357)
+[01:58:56] [Server thread/INFO]: Loading config from file...
+[01:58:56] [Server thread/INFO]: GhostShadows joined the game
+[02:00:03] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=-1270, y=82, z=430}
+[02:00:03] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=-1270, y=82, z=430}
+[02:00:03] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=-1270, y=82, z=430}
+[02:00:14] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=-1268, y=83, z=432}
+[02:00:14] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=-1268, y=83, z=432}
+[02:00:14] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=-1268, y=82, z=431}
+[02:00:15] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=-1268, y=83, z=432}
+[02:00:15] [User Authenticator #3/INFO]: UUID of player cooksies is 95a4822e-d4bf-4260-ad91-92f28f3191de
+[02:00:16] [Server thread/INFO]: cooksies[/32.216.166.121:60914] logged in with entity id 802 at (-1236.6143042323663, 77.0, 446.36436544580977)
+[02:00:16] [Server thread/INFO]: Loading config from file...
+[02:00:16] [Server thread/INFO]: cooksies joined the game
+[02:00:16] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=-1268, y=83, z=432}
+[02:00:16] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=-1268, y=82, z=432}
+[02:00:22] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=-1255, y=79, z=429}
+[02:00:22] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=-1255, y=79, z=428}
+[02:00:22] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=-1254, y=79, z=428}
+[02:00:22] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=-1254, y=79, z=428}
+[02:00:23] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=-1254, y=79, z=430}
+[02:00:23] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=-1254, y=79, z=429}
+[02:00:24] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=-1252, y=79, z=427}
+[02:00:24] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=-1251, y=79, z=427}
+[02:00:24] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=-1251, y=79, z=427}
+[02:00:29] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1248, y=79, z=425} class_2338{x=-1264, y=82, z=431}
+[02:00:29] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1248, y=79, z=425} class_2338{x=-1264, y=82, z=430}
+[02:00:29] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1248, y=79, z=425} class_2338{x=-1264, y=82, z=430}
+[02:00:29] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1248, y=79, z=425} class_2338{x=-1264, y=82, z=431}
+[02:00:29] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1248, y=79, z=425} class_2338{x=-1264, y=82, z=431}
+[02:00:29] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1248, y=79, z=425} class_2338{x=-1264, y=82, z=431}
+[02:00:29] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1248, y=79, z=425} class_2338{x=-1264, y=82, z=431}
+[02:00:29] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1248, y=79, z=425} class_2338{x=-1264, y=82, z=431}
+[02:00:29] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1248, y=79, z=425} class_2338{x=-1264, y=82, z=431}
+[02:00:29] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1248, y=79, z=425} class_2338{x=-1264, y=82, z=431}
+[02:00:29] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1248, y=79, z=425} class_2338{x=-1264, y=82, z=431}
+[02:00:29] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1248, y=79, z=425} class_2338{x=-1264, y=82, z=431}
+[02:00:29] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1248, y=79, z=425} class_2338{x=-1264, y=82, z=431}
+[02:00:29] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1248, y=79, z=425} class_2338{x=-1264, y=82, z=431}
+[02:00:30] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1248, y=79, z=425} class_2338{x=-1264, y=82, z=431}
+[02:00:30] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1248, y=79, z=425} class_2338{x=-1264, y=82, z=431}
+[02:00:30] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1248, y=79, z=425} class_2338{x=-1264, y=82, z=431}
+[02:00:30] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1248, y=79, z=425} class_2338{x=-1263, y=82, z=434}
+[02:00:30] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1248, y=79, z=425} class_2338{x=-1263, y=82, z=434}
+[02:00:35] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1249, y=79, z=426} class_2338{x=-1253, y=79, z=429}
+[02:00:35] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1249, y=79, z=426} class_2338{x=-1253, y=79, z=429}
+[02:00:35] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1249, y=79, z=426} class_2338{x=-1257, y=80, z=428}
+[02:00:35] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1249, y=79, z=426} class_2338{x=-1256, y=79, z=428}
+[02:00:36] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1249, y=79, z=426} class_2338{x=-1257, y=80, z=428}
+[02:00:36] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1249, y=79, z=426} class_2338{x=-1257, y=80, z=428}
+[02:00:36] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1250, y=78, z=423} class_2338{x=-1251, y=79, z=422}
+[02:00:36] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1250, y=78, z=423} class_2338{x=-1251, y=79, z=422}
+[02:00:36] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1250, y=78, z=423} class_2338{x=-1251, y=79, z=422}
+[02:00:36] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1250, y=78, z=423} class_2338{x=-1251, y=79, z=422}
+[02:00:36] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1250, y=78, z=423} class_2338{x=-1251, y=79, z=422}
+[02:00:36] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1250, y=78, z=423} class_2338{x=-1251, y=79, z=422}
+[02:00:36] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1250, y=78, z=423} class_2338{x=-1251, y=79, z=422}
+[02:00:39] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1249, y=79, z=426} class_2338{x=-1254, y=79, z=428}
+[02:00:41] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1249, y=79, z=426} class_2338{x=-1251, y=79, z=428}
+[02:00:46] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1250, y=79, z=428} class_2338{x=-1251, y=79, z=428}
+[02:00:46] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1250, y=79, z=428} class_2338{x=-1251, y=79, z=428}
+[02:00:46] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1250, y=79, z=428} class_2338{x=-1251, y=79, z=429}
+[02:00:48] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1250, y=79, z=428} class_2338{x=-1251, y=79, z=428}
+[02:00:48] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1250, y=79, z=428} class_2338{x=-1251, y=79, z=429}
+[02:06:45] [pool-5-thread-1/INFO]: Searching for closest structure among [ResourceKey[minecraft:worldgen/structure / minecraft:village_desert], ResourceKey[minecraft:worldgen/structure / minecraft:village_taiga], ResourceKey[minecraft:worldgen/structure / minecraft:village_savanna], ResourceKey[minecraft:worldgen/structure / minecraft:village_snowy], ResourceKey[minecraft:worldgen/structure / minecraft:village_plains]] from pos class_2338{x=-1493, y=77, z=667}
+[02:06:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3200ms or 64 ticks behind
+[02:06:49] [Server thread/WARN]: godpot moved too quickly! -2.2884926347248893,-1.9031272476744903,9.770240759250669
+[02:15:59] [Server thread/INFO]: cooksies has made the advancement [Dye your backpack!]
+[02:17:17] [Server thread/INFO]: GhostShadows has made the advancement [Craft basic backpack]
+[02:20:13] [Server thread/INFO]: godpot has made the advancement [Getting Started]
+[02:20:30] [Server thread/INFO]: cooksies lost connection: Disconnected
+[02:20:30] [Server thread/INFO]: cooksies left the game
+[02:20:39] [Server thread/INFO]: godpot has made the advancement [Craft basic backpack]
+[02:21:18] [Server thread/INFO]: GhostShadows lost connection: Disconnected
+[02:21:18] [Server thread/INFO]: GhostShadows left the game
+[02:22:07] [User Authenticator #4/INFO]: UUID of player cooksies is 95a4822e-d4bf-4260-ad91-92f28f3191de
+[02:22:07] [Server thread/INFO]: cooksies[/32.216.166.121:53292] logged in with entity id 7593 at (-972.3000000119209, 76.0, 446.921975291817)
+[02:22:07] [Server thread/INFO]: Loading config from file...
+[02:22:07] [Server thread/INFO]: cooksies joined the game
+[02:22:31] [Server thread/INFO]: cooksies lost connection: Disconnected
+[02:22:31] [Server thread/INFO]: cooksies left the game
+[02:23:54] [User Authenticator #5/INFO]: UUID of player GhostShadows is 5c2dfc21-e1f3-47b0-af6f-9d9343ea8ef0
+[02:23:54] [Server thread/INFO]: GhostShadows[/173.69.179.201:63515] logged in with entity id 8058 at (-1306.455137903847, 80.0, 420.1422923951002)
+[02:23:54] [Server thread/INFO]: Loading config from file...
+[02:23:54] [Server thread/INFO]: GhostShadows joined the game
+[02:24:06] [User Authenticator #6/INFO]: UUID of player cooksies is 95a4822e-d4bf-4260-ad91-92f28f3191de
+[02:24:06] [Server thread/INFO]: cooksies[/32.216.166.121:54576] logged in with entity id 8082 at (-972.8840470865487, 76.0, 446.64622796291906)
+[02:24:06] [Server thread/INFO]: Loading config from file...
+[02:24:06] [Server thread/INFO]: cooksies joined the game
+[02:24:45] [Server thread/INFO]: cooksies lost connection: Disconnected
+[02:24:45] [Server thread/INFO]: cooksies left the game
+[02:26:56] [User Authenticator #7/INFO]: UUID of player cooksies is 95a4822e-d4bf-4260-ad91-92f28f3191de
+[02:26:56] [Server thread/INFO]: cooksies[/32.216.166.121:62182] logged in with entity id 8743 at (-972.8295070893624, 77.0, 456.2151821928279)
+[02:26:56] [Server thread/INFO]: Loading config from file...
+[02:26:56] [Server thread/INFO]: cooksies joined the game
+[02:27:05] [Server thread/INFO]: [godpot: Gamerule playersSleepingPercentage is now set to: 30]
+[02:27:06] [Server thread/INFO]: cooksies lost connection: Disconnected
+[02:27:06] [Server thread/INFO]: cooksies left the game
+[02:27:08] [User Authenticator #8/INFO]: UUID of player cooksies is 95a4822e-d4bf-4260-ad91-92f28f3191de
+[02:27:08] [Server thread/INFO]: cooksies[/32.216.166.121:62211] logged in with entity id 9015 at (-973.6999999880791, 77.49520087700593, 458.8735755579823)
+[02:27:08] [Server thread/INFO]: Loading config from file...
+[02:27:08] [Server thread/INFO]: cooksies joined the game
+[02:29:05] [Server thread/INFO]: godpot lost connection: Disconnected
+[02:29:05] [Server thread/INFO]: godpot left the game
+[02:33:15] [Server thread/INFO]: GhostShadows has made the advancement [When in Rome]
+[02:38:03] [Server thread/INFO]: GhostShadows has made the advancement [Diamonds!]
+[02:41:46] [User Authenticator #9/INFO]: UUID of player godpot is c93adaae-6e57-4624-8cde-df3c1ea040ff
+[02:41:46] [Server thread/INFO]: godpot[/32.216.166.121:58239] logged in with entity id 12744 at (-1303.6259494536082, 80.0, 415.8137388570619)
+[02:41:46] [Server thread/INFO]: Loading config from file...
+[02:41:46] [Server thread/INFO]: godpot joined the game
+[02:42:04] [User Authenticator #10/INFO]: UUID of player nemobabe is 2a2ee565-297d-483b-9fa4-e29591166df5
+[02:42:04] [Server thread/INFO]: nemobabe[/68.134.153.148:54429] logged in with entity id 12904 at (-1271.5, 83.0, 424.5)
+[02:42:04] [Server thread/INFO]: Loading config from file...
+[02:42:04] [Server thread/INFO]: nemobabe joined the game
+[02:42:10] [Server thread/INFO]: [godpot: Teleported nemobabe to godpot]
+[02:42:10] [Server thread/WARN]: nemobabe moved too quickly! -30.89330064298474,-2.4375,-14.536903705877535
+[02:42:24] [Server thread/INFO]: nemobabe has made the advancement [Sweet Dreams]
+[02:54:34] [Server thread/INFO]: nemobabe has made the advancement [Monster Hunter]
+[02:56:28] [Server thread/INFO]: GhostShadows lost connection: Disconnected
+[02:56:28] [Server thread/INFO]: GhostShadows left the game
+[02:59:28] [Server thread/INFO]: godpot has made the advancement [Acquire Hardware]
+[03:07:35] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1292, y=80, z=431} class_2338{x=-1273, y=79, z=431}
+[03:09:31] [Server thread/INFO]: godpot has made the advancement [(Optional) Fluid Tanks Upgrade]
+[03:11:08] [Server thread/INFO]: <cooksies> pookesh
+[03:13:42] [Server thread/INFO]: godpot has made the advancement [Base for upgrades]
+[03:16:11] [Server thread/INFO]: cooksies has made the advancement [Cover Me with Diamonds]
+[03:16:30] [Server thread/INFO]: nemobabe has made the advancement [Suit Up]
+[03:17:16] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1149, y=73, z=591} class_2338{x=-1281, y=81, z=436}
+[03:17:29] [Server thread/INFO]: cooksies has made the advancement [Getting Started]
+[03:17:31] [Server thread/INFO]: cooksies has made the advancement [Craft basic backpack]
+[03:17:33] [Server thread/INFO]: cooksies has made the advancement [Change Sleeping Bag Color]
+[03:18:13] [Server thread/INFO]: nemobabe has made the advancement [Dye your backpack!]
+[03:18:55] [Server thread/INFO]: godpot has made the advancement [Expand functionality]
+[03:19:40] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1286, y=82, z=427} class_2338{x=-1283, y=82, z=428}
+[03:23:41] [Server thread/INFO]: godpot has made the advancement [Time to sleep]
+[03:24:05] [Server thread/INFO]: godpot has made the advancement [Custom Backpacks]
+[03:24:43] [Server thread/INFO]: cooksies has made the advancement [Base for upgrades]
+[03:25:13] [Server thread/INFO]: cooksies has made the advancement [Iron Tier Upgrade]
+[03:27:33] [Server thread/INFO]: cooksies has made the advancement [Gold Tier Upgrade]
+[03:29:33] [Server thread/INFO]: godpot lost connection: Disconnected
+[03:29:33] [Server thread/INFO]: godpot left the game
+[03:31:31] [User Authenticator #11/INFO]: UUID of player godpot is c93adaae-6e57-4624-8cde-df3c1ea040ff
+[03:31:31] [Server thread/INFO]: godpot[/32.216.166.121:52923] logged in with entity id 27248 at (-1303.471773554013, 80.0, 411.0964435909913)
+[03:31:31] [Server thread/INFO]: Loading config from file...
+[03:31:31] [Server thread/INFO]: godpot joined the game
+[03:32:53] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1311, y=80, z=406} class_2338{x=-1274, y=82, z=430}
+[03:32:53] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1311, y=80, z=406} class_2338{x=-1274, y=82, z=430}
+[03:32:55] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1311, y=80, z=406} class_2338{x=-1272, y=82, z=431}
+[03:32:56] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1311, y=80, z=406} class_2338{x=-1272, y=81, z=432}
+[03:32:56] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1311, y=80, z=406} class_2338{x=-1272, y=81, z=432}
+[03:32:57] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1311, y=80, z=406} class_2338{x=-1271, y=82, z=433}
+[03:35:48] [User Authenticator #12/INFO]: UUID of player GhostShadows is 5c2dfc21-e1f3-47b0-af6f-9d9343ea8ef0
+[03:35:48] [Server thread/INFO]: GhostShadows[/173.69.179.201:52215] logged in with entity id 28597 at (-1166.699999988079, 5.0, 399.01249998807907)
+[03:35:48] [Server thread/INFO]: Loading config from file...
+[03:35:48] [Server thread/INFO]: GhostShadows joined the game
+[03:36:06] [Server thread/INFO]: [godpot: Teleported GhostShadows to godpot]
+[03:36:09] [Server thread/INFO]: cooksies has made the advancement [What a Deal!]
+[03:37:31] [Server thread/INFO]: GhostShadows has made the advancement [Cover Me with Diamonds]
+[03:37:52] [Server thread/INFO]: cooksies has made the advancement [You Spin Me Right Round Baby]
+[03:37:55] [Server thread/INFO]: GhostShadows has made the advancement [You Spin Me Right Round Baby]
+[03:38:00] [Server thread/INFO]: [godpot: Teleported godpot to GhostShadows]
+[03:38:00] [Server thread/WARN]: godpot moved too quickly! -94.63889739607976,13.0,-23.407848591383754
+[03:38:02] [Server thread/INFO]: godpot has made the advancement [You Spin Me Right Round Baby]
+[03:39:54] [Server thread/INFO]: [godpot: Teleported godpot to GhostShadows]
+[03:39:54] [Server thread/WARN]: godpot moved too quickly! 68.05377751286392,-3.823240724935758,79.72612179505461
+[03:39:54] [Server thread/WARN]: godpot moved too quickly! 68.05377751286392,-3.823240724935758,79.72612179505461
+[03:40:21] [Server thread/INFO]: nemobabe fell from a high place
+[03:40:32] [Server thread/INFO]: [godpot: Teleported nemobabe to godpot]
+[03:40:32] [Server thread/WARN]: nemobabe moved too quickly! 127.97937194363021,-53.0,141.61537376676387
+[03:42:05] [Server thread/INFO]: nemobabe has made the advancement [Stone Age]
+[03:42:11] [Server thread/INFO]: godpot has made the advancement [Diamonds!]
+[03:45:05] [Server thread/INFO]: cooksies has made the advancement [Hot Stuff]
+[03:45:40] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1163, y=-30, z=637} class_2338{x=-1149, y=-29, z=609}
+[03:46:16] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1204, y=-26, z=621} class_2338{x=-1203, y=-26, z=621}
+[03:46:16] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1204, y=-26, z=621} class_2338{x=-1203, y=-26, z=621}
+[03:46:16] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1204, y=-26, z=621} class_2338{x=-1203, y=-26, z=621}
+[03:46:30] [Server thread/INFO]: cooksies has made the advancement [Not Today, Thank You]
+[03:47:08] [Server thread/INFO]: nemobabe has made the advancement [Isn't It Iron Pick]
+[03:47:37] [Server thread/INFO]: cooksies has made the advancement [Take Aim]
+[03:50:21] [Server thread/INFO]: godpot has made the advancement [Quite the Renovation]
+[03:50:35] [Server thread/INFO]: cooksies has made the advancement [Quite the Renovation]
+[03:51:54] [Server thread/INFO]: [godpot: Teleported godpot to GhostShadows]
+[03:51:54] [Server thread/WARN]: godpot moved too quickly! -38.91296902912836,11.0,-75.07760682137416
+[03:51:54] [Server thread/WARN]: godpot moved too quickly! -38.91296902912836,11.0,-75.07760682137416
+[03:51:54] [Server thread/WARN]: godpot moved too quickly! -38.91296902912836,11.0,-75.07760682137416
+[03:51:54] [Server thread/WARN]: godpot moved too quickly! -38.91296902912836,11.0,-75.07760682137416
+[03:51:54] [Server thread/WARN]: godpot moved too quickly! -38.91296902912836,11.0,-75.07760682137416
+[03:51:57] [Server thread/INFO]: [godpot: Teleported 4 entities to GhostShadows]
+[03:53:58] [Server thread/INFO]: [godpot: Teleported godpot to nemobabe]
+[03:53:58] [Server thread/WARN]: godpot moved too quickly! 36.45843051348584,1.4199999868869781,-4.094224308070466
+[03:56:10] [Server thread/INFO]: godpot has made the advancement [Hot Stuff]
+[03:59:08] [Server thread/INFO]: nemobabe has made the advancement [You Spin Me Right Round Baby]
+[04:02:50] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1297, y=79, z=417} class_2338{x=-1267, y=82, z=427}
+[04:02:51] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1297, y=79, z=417} class_2338{x=-1267, y=82, z=427}
+[04:02:51] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1297, y=79, z=417} class_2338{x=-1265, y=82, z=427}
+[04:02:51] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1297, y=79, z=417} class_2338{x=-1264, y=82, z=428}
+[04:02:51] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1297, y=79, z=417} class_2338{x=-1265, y=82, z=428}
+[04:02:51] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1297, y=79, z=417} class_2338{x=-1264, y=82, z=429}
+[04:02:51] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1297, y=79, z=417} class_2338{x=-1264, y=82, z=429}
+[04:02:51] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1297, y=79, z=417} class_2338{x=-1263, y=82, z=429}
+[04:02:51] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1297, y=79, z=417} class_2338{x=-1263, y=82, z=429}
+[04:02:52] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1297, y=79, z=417} class_2338{x=-1259, y=81, z=430}
+[04:02:52] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1297, y=79, z=417} class_2338{x=-1256, y=80, z=433}
+[04:04:36] [Server thread/INFO]: GhostShadows has made the advancement [Dye your backpack!]
+[04:05:13] [Server thread/INFO]: cooksies lost connection: Disconnected
+[04:05:13] [Server thread/INFO]: cooksies left the game
+[04:10:13] [pool-5-thread-2/INFO]: Searching for closest structure among [ResourceKey[minecraft:worldgen/structure / minecraft:village_snowy], ResourceKey[minecraft:worldgen/structure / minecraft:village_plains], ResourceKey[minecraft:worldgen/structure / minecraft:village_savanna], ResourceKey[minecraft:worldgen/structure / minecraft:village_desert], ResourceKey[minecraft:worldgen/structure / minecraft:village_taiga]] from pos class_2338{x=-587, y=80, z=-245}
+[04:10:14] [Server thread/WARN]: Tried to load a DUMMY block entity @ class_2338{x=-587, y=80, z=-245} but found not block entity block Block{minecraft:air} at location
+[04:10:14] [Server thread/WARN]: Tried to load a block entity for block Block{minecraft:air} but failed at location class_2338{x=-587, y=80, z=-245}
+[04:11:39] [Server thread/INFO]: GhostShadows has made the advancement [Ice Bucket Challenge]
+[04:12:05] [Server thread/INFO]: [godpot: Teleported godpot to nemobabe]
+[04:12:05] [Server thread/WARN]: godpot moved too quickly! -62.147231020690924,11.0,-583.1333357123297
+[04:12:05] [Server thread/WARN]: godpot moved too quickly! -62.147231020690924,11.0,-583.1333357123297
+[04:12:05] [Server thread/WARN]: godpot moved too quickly! -62.147231020690924,11.0,-583.1333357123297
+[04:12:05] [Server thread/WARN]: godpot moved too quickly! -62.147231020690924,11.0,-583.1333357123297
+[04:12:05] [Server thread/WARN]: godpot moved too quickly! -62.147231020690924,11.0,-583.1333357123297
+[04:14:32] [Server thread/INFO]: [godpot: Teleported GhostShadows to godpot]
+[04:14:36] [Server thread/INFO]: godpot has made the advancement [Ice Bucket Challenge]
+[04:14:36] [Server thread/INFO]: GhostShadows lost connection: Disconnected
+[04:14:36] [Server thread/INFO]: GhostShadows left the game
+[04:19:35] [Server thread/INFO]: godpot has made the advancement [We Need to Go Deeper]
+[04:19:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2616ms or 52 ticks behind
+[04:19:37] [Worker-Main-36/WARN]: Skipped emitting ENTITY_MOUNT game event for entity class_4985['Strider'/44969, l='ServerLevel[world]', x=-205.00, y=31.00, z=19.00] as it would cause deadlock
+[04:19:37] [Server thread/WARN]: Skipped emitting ENTITY_MOUNT game event for entity class_4985['Strider'/44971, l='ServerLevel[world]', x=-205.00, y=31.00, z=19.00] as it would cause deadlock
+[04:19:39] [Worker-Main-36/WARN]: Skipped emitting ENTITY_MOUNT game event for entity class_4985['Strider'/45010, l='ServerLevel[world]', x=-229.00, y=31.00, z=170.00] as it would cause deadlock
+[04:19:39] [Server thread/WARN]: Skipped emitting ENTITY_MOUNT game event for entity class_4985['Strider'/45013, l='ServerLevel[world]', x=-229.00, y=31.00, z=170.00] as it would cause deadlock
+[04:19:39] [Worker-Main-38/WARN]: Skipped emitting ENTITY_MOUNT game event for entity class_4985['Strider'/45048, l='ServerLevel[world]', x=-215.00, y=31.00, z=179.00] as it would cause deadlock
+[04:19:39] [Server thread/WARN]: Skipped emitting ENTITY_MOUNT game event for entity class_4985['Strider'/45050, l='ServerLevel[world]', x=-215.00, y=31.00, z=179.00] as it would cause deadlock
+[04:19:40] [Worker-Main-36/WARN]: Skipped emitting ENTITY_MOUNT game event for entity class_4985['Strider'/45085, l='ServerLevel[world]', x=-291.00, y=31.00, z=66.00] as it would cause deadlock
+[04:19:40] [Server thread/WARN]: Skipped emitting ENTITY_MOUNT game event for entity class_4985['Strider'/45088, l='ServerLevel[world]', x=-291.00, y=31.00, z=66.00] as it would cause deadlock
+[04:19:43] [Worker-Main-38/WARN]: Skipped emitting ENTITY_MOUNT game event for entity class_4985['Strider'/45131, l='ServerLevel[world]', x=-348.00, y=31.00, z=-72.00] as it would cause deadlock
+[04:19:43] [Server thread/WARN]: Skipped emitting ENTITY_MOUNT game event for entity class_4985['Strider'/45133, l='ServerLevel[world]', x=-348.00, y=31.00, z=-72.00] as it would cause deadlock
+[04:24:35] [Server thread/INFO]: nemobabe has made the advancement [We Need to Go Deeper]
+[04:30:08] [Server thread/INFO]: godpot lost connection: Disconnected
+[04:30:08] [Server thread/INFO]: godpot left the game
+[04:30:22] [Server thread/INFO]: nemobabe lost connection: Disconnected
+[04:30:22] [Server thread/INFO]: nemobabe left the game
+[06:19:35] [RCON Listener #1/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 started
+[06:19:35] [Server thread/INFO]: [Rcon: Stopping the server]
+[06:19:35] [RCON Client /0:0:0:0:0:0:0:1 #2/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 shutting down
+[06:19:35] [Server thread/INFO]: Stopping server
+[06:19:35] [Server thread/INFO]: Saving players
+[06:19:35] [Server thread/INFO]: Saving worlds
+[06:19:35] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[06:19:36] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[06:19:36] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[06:19:36] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/ae2:spatial_storage
+[06:19:36] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[06:19:36] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[06:19:36] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[06:19:36] [Server thread/INFO]: ThreadedAnvilChunkStorage (spatial_storage): All chunks are saved
+[06:19:36] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[06:19:36] [Server thread/INFO]: Thread RCON Listener stopped
