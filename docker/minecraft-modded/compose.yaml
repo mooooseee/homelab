@@ -19,6 +19,13 @@ services:
         moonlight
         supplementaries
         ae2
+        waystones
+        balm
+        ad-astra
+        resourceful-lib
+        botarium
+        resourceful-config
+        immersive-aircraft
         macaws-windows
         macaws-furniture
         macaws-stairs

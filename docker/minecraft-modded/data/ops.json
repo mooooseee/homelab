@@ -1,7 +1,25 @@
 [
   {
+    "uuid": "c3d0967f-6a63-48d4-8db6-f53a933d2cad",
+    "name": "BoehChan",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "5c2dfc21-e1f3-47b0-af6f-9d9343ea8ef0",
+    "name": "GhostShadows",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
     "uuid": "c93adaae-6e57-4624-8cde-df3c1ea040ff",
     "name": "godpot",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "95a4822e-d4bf-4260-ad91-92f28f3191de",
+    "name": "cooksies",
     "level": 4,
     "bypassesPlayerLimit": false
   }
