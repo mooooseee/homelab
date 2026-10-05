@@ -1,0 +1,15 @@
+services:
+  minecraft-server:
+    image: itzg/minecraft-server
+    container_name: minecraft-vanilla-server
+    tty: true
+    stdin_open: true
+    restart: unless-stopped
+    ports:
+     - "25565:25565"
+    environment:
+      EULA: true
+      MOTD: Moose's Vanilla Experience
+    volumes:
+      - ./data:/data
+
